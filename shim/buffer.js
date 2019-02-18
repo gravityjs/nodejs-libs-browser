@@ -1,0 +1,1 @@
+exports.buffer  = require('buffer/');
