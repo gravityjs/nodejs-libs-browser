@@ -1,1 +1,1 @@
-exports.buffer  = require('buffer/');
+exports.buffer  = require.resolve('buffer/');

@@ -1,1 +1,1 @@
-exports.punycode = require('punycode/');
+exports.punycode = require.resolve('punycode/');

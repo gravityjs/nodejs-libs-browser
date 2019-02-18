@@ -1,1 +1,1 @@
-exports.tty = require('tty-browserify');
+exports.tty = require.resolve('tty-browserify');

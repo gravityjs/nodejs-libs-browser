@@ -1,1 +1,1 @@
-exports.zlib = require('browserify-zlib');
+exports.zlib = require.resolve('browserify-zlib');

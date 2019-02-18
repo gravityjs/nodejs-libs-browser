@@ -1,1 +1,1 @@
-exports.sys = require('util/util.js');
+exports.sys = require.resolve('util/util.js');

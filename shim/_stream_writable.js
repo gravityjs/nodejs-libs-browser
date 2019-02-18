@@ -1,1 +1,1 @@
-exports._stream_writable = require('readable-stream/writable.js');
+exports._stream_writable = require.resolve('readable-stream/writable.js');

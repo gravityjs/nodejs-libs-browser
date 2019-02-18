@@ -1,1 +1,1 @@
-exports.constants = require('constants-browserify');
+exports.constants = require.resolve('constants-browserify');

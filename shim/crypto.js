@@ -1,1 +1,1 @@
-exports.crypto = require('crypto-browserify');
+exports.crypto = require.resolve('crypto-browserify');

@@ -1,1 +1,1 @@
-exports.path = require('path-browserify');
+exports.path = require.resolve('path-browserify');

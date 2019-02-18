@@ -1,1 +1,1 @@
-exports.querystring = require('querystring-es3/');
+exports.querystring = require.resolve('querystring-es3/');

@@ -1,1 +1,1 @@
-exports._stream_passthrough = require('readable-stream/passthrough.js');
+exports._stream_passthrough = require.resolve('readable-stream/passthrough.js');

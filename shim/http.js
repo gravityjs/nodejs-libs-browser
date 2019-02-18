@@ -1,1 +1,1 @@
-exports.http = require('stream-http');
+exports.http = require.resolve('stream-http');

@@ -1,1 +1,1 @@
-exports.os = require('os-browserify/browser.js');
+exports.os = require.resolve('os-browserify/browser.js');

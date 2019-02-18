@@ -1,1 +1,1 @@
-exports.vm = require('vm-browserify');
+exports.vm = require.resolve('vm-browserify');

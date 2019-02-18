@@ -1,1 +1,1 @@
-exports.cluster           = null;
+exports.cluster = null;

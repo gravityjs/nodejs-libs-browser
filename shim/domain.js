@@ -1,1 +1,1 @@
-exports.domain = require('domain-browser');
+exports.domain = require.resolve('domain-browser');

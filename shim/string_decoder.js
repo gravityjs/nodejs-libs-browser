@@ -1,1 +1,1 @@
-exports.string_decoder = require('string_decoder/');
+exports.string_decoder = require.resolve('string_decoder/');

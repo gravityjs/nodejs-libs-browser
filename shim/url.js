@@ -1,1 +1,1 @@
-exports.url = require('url/');
+exports.url = require.resolve('url/');

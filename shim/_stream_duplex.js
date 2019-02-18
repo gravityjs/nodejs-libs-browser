@@ -1,1 +1,1 @@
-exports._stream_duplex = require('readable-stream/duplex.js');
+exports._stream_duplex = require.resolve('readable-stream/duplex.js');

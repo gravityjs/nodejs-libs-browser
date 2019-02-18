@@ -1,1 +1,1 @@
-exports.console = require('console-browserify');
+exports.console = require.resolve('console-browserify');

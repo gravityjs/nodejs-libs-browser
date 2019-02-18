@@ -1,1 +1,1 @@
-exports.https = require('https-browserify');
+exports.https = require.resolve('https-browserify');

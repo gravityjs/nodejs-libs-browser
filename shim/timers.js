@@ -1,1 +1,1 @@
-exports.timers = require('timers-browserify');
+exports.timers = require.resolve('timers-browserify');

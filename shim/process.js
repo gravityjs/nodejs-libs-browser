@@ -1,1 +1,1 @@
-exports.process = require('process/browser.js');
+exports.process = require.resolve('process/browser.js');

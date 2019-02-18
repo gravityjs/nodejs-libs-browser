@@ -1,1 +1,1 @@
-exports.assert = require('assert/');
+exports.assert = require.resolve('assert/');

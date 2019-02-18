@@ -1,1 +1,1 @@
-exports._stream_readable = require('readable-stream/readable.js');
+exports._stream_readable = require.resolve('readable-stream/readable.js');

@@ -1,1 +1,1 @@
-exports.child_process       = null;
+exports.child_process = null;

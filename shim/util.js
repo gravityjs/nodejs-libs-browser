@@ -1,1 +1,1 @@
-exports.util = require('util/util.js');
+exports.util = require.resolve('util/util.js');
