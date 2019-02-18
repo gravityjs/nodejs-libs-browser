@@ -1,4 +1,4 @@
-# node-libs-browser
+# nodejs-libs-browser
 
 The node core libs for in-browser usage.
 
