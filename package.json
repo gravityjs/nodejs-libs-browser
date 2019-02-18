@@ -33,7 +33,7 @@
   },
   "files": [
     "index.js",
-    "shim/"
+    "shim/",
     "mock/"
   ],
   "repository": {
