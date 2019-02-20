@@ -1,38 +1,44 @@
-exports.assert                = require.resolve('assert/');
-exports.buffer                = require.resolve('buffer/');
-exports.Buffer                = require.resolve('buffer/');
-exports.cluster               = null;
-exports.console               = require.resolve('console-browserify');
-exports.constants             = require.resolve('constants-browserify');
-exports.crypto                = require.resolve('crypto-browserify');
-exports.dgram                 = null;
-exports.dns                   = null;
-exports.domain                = require.resolve('domain-browser');
-exports.events                = require.resolve('events/');
-exports.fs                    = null;
-exports.http                  = require.resolve('stream-http');
-exports.https                 = require.resolve('https-browserify');
-exports.module                = null;
-exports.net                   = null;
-exports.os                    = require.resolve('os-browserify/browser.js');
-exports.path                  = require.resolve('path-browserify');
-exports.punycode              = require.resolve('punycode/');
-exports.process               = require.resolve('process/browser.js');
-exports.querystring           = require.resolve('querystring-es3/');
-exports.readline              = null;
-exports.repl                  = null;
-exports.stream                = require.resolve('stream-browserify');
-exports._stream_duplex        = require.resolve('readable-stream/duplex.js');
-exports._stream_passthrough   = require.resolve('readable-stream/passthrough.js');
-exports._stream_readable      = require.resolve('readable-stream/readable.js');
-exports._stream_transform     = require.resolve('readable-stream/transform.js');
-exports._stream_writable      = require.resolve('readable-stream/writable.js');
-exports.string_decoder        = require.resolve('string_decoder/');
-exports.sys                   = require.resolve('util/util.js');
-exports.timers                = require.resolve('timers-browserify');
-exports.tls                   = null;
-exports.tty                   = require.resolve('tty-browserify');
-exports.url                   = require.resolve('url/');
-exports.util                  = require.resolve('util/util.js');
-exports.vm                    = require.resolve('vm-browserify');
-exports.zlib                  = require.resolve('browserify-zlib');
+function nodejsLibs(prefix) {
+  return {
+    assert                : prefix + require.resolve('assert/'),
+    buffer                : prefix + require.resolve('buffer/'),
+    Buffer                : prefix + require.resolve('buffer/'),
+    cluster               : null,
+    console               : prefix + require.resolve('console-browserify'),
+    constants             : prefix + require.resolve('constants-browserify'),
+    crypto                : prefix + require.resolve('crypto-browserify'),
+    dgram                 : null,
+    dns                   : null,
+    domain                : prefix + require.resolve('domain-browser'),
+    events                : prefix + require.resolve('events/'),
+    fs                    : null,
+    http                  : prefix + require.resolve('stream-http'),
+    https                 : prefix + require.resolve('https-browserify'),
+    module                : null,
+    net                   : null,
+    os                    : prefix + require.resolve('os-browserify/browser.js'),
+    path                  : prefix + require.resolve('path-browserify'),
+    punycode              : prefix + require.resolve('punycode/'),
+    process               : prefix + require.resolve('process/browser.js'),
+    querystring           : prefix + require.resolve('querystring-es3/'),
+    readline              : null,
+    repl                  : null,
+    stream                : prefix + require.resolve('stream-browserify'),
+    _stream_duplex        : prefix + require.resolve('readable-stream/duplex.js'),
+    _stream_passthrough   : prefix + require.resolve('readable-stream/passthrough.js'),
+    _stream_readable      : prefix + require.resolve('readable-stream/readable.js'),
+    _stream_transform     : prefix + require.resolve('readable-stream/transform.js'),
+    _stream_writable      : prefix + require.resolve('readable-stream/writable.js'),
+    string_decoder        : prefix + require.resolve('string_decoder/'),
+    sys                   : prefix + require.resolve('util/util.js'),
+    timers                : prefix + require.resolve('timers-browserify'),
+    tls                   : null,
+    tty                   : prefix + require.resolve('tty-browserify'),
+    url                   : prefix + require.resolve('url/'),
+    util                  : prefix + require.resolve('util/util.js'),
+    vm                    : prefix + require.resolve('vm-browserify'),
+    zlib                  : prefix + require.resolve('browserify-zlib'),
+  }
+}
+
+module.exports = nodejsLibs;
