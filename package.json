@@ -1,6 +1,6 @@
 {
   "name": "nodejs-libs-browser",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The node core libs for in browser usage.",
   "main": "index.js",
   "scripts": {
