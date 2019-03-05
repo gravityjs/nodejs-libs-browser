@@ -38,6 +38,7 @@ function nodejsLibs(prefix) {
     util                  : prefix + require.resolve('util/util.js'),
     vm                    : prefix + require.resolve('vm-browserify'),
     zlib                  : prefix + require.resolve('browserify-zlib'),
+    empty                 : prefix + require.resolve('./shim/empty.js'),
   }
 }
 
